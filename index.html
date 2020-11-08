@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Product Landing Page</title>
+
+    <style>
+        #productCategories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        @media (max-width: 480px) {
+            #productCategories {
+                display: block;
+            }          
+         }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <ul>
+                <li><img id="header-img" src="https://cdn.pixabay.com/photo/2018/01/09/15/43/auto-3071895_960_720.png/"></a></li>
+                <li><a class="nav-link" href="#productCategories">Product Categories</a></li>
+                <li><a class="nav-link" href="#about">How it Works</a></li>
+                <li><a class="nav-link" href="#form">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Product Landing Sample</h1>
+        
+        <video id="video" src="productionVideo.mp4" width="99%" controls>
+            
+        </video>
+        
+        <section id="productCategories">
+            <!-- place for 3 images for categories -->
+
+            <img src="images/baking-350px.jpg" height="300px" alt=""/>
+            <img src="images/coffee-350.jpg" height="300px" alt=""/>
+            <img src="images/pasta-350.jpg" height="300px" alt=""/>
+            
+        </section>
+        <section id="about">
+        <h2>About Us</h2>
+        <p > ipsum dolor, sit amet consectetur adipisicing elit. Dolore est repellat accusantium magnam nostrum nobis pariatur quos dolores, omnis officia saepe ipsam voluptas a similique repudiandae fugiat mollitia quo rem!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusantium obcaecati tempora laborum, doloremque deleniti suscipit repellat aut. Unde nemo aperiam voluptates iure sapiente esse quas maiores corporis officia cumque.
+        Saepe ipsam dignissimos esse quis, quasi eligendi aliquam. Ducimus possimus praesentium beatae consequuntur provident. Autem ad iusto doloribus aliquam quidem sint at fugit earum quos alias. Porro at incidunt blanditiis.
+        Soluta, quod possimus modi similique distinctio a enim. Consequuntur unde quam obcaecati minima, sit necessitatibus, modi voluptas quidem labore officiis dolore a non minus blanditiis consectetur ipsam ipsum temporibus aspernatur?
+    </p>
+   
+    </section>
+
+    <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+        <input type="email" name="email" id="email" placeholder="Your Email">
+        <input id="submit" type="submit" value="submit" placeholder="Subscribe">
+    </form>
+    </main>
+    
+    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
